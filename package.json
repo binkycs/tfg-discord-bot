@@ -1,0 +1,26 @@
+{
+	"name": "vxtwitter-bot",
+	"version": "1.0.0",
+	"description": "Discord bot to change x.com/twitter.com links to vxtwitter.com to fix embeds",
+	"main": "index.js",
+	"scripts": {
+		"dev": "tsx watch src/index.ts",
+		"start": "ts-node src/index.ts",
+		"build": "tsup src/index.ts --minify"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@discordjs/builders": "^1.6.5",
+		"@discordjs/rest": "^2.0.1",
+		"@types/node": "^20.8.7",
+		"discord.js": "^14.13.0",
+		"dotenv": "^16.3.1",
+		"ts-node": "^10.9.1"
+	},
+	"devDependencies": {
+		"tsup": "^7.2.0",
+		"tsx": "^3.14.0",
+		"typescript": "^5.2.2"
+	}
+}
